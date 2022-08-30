@@ -62,3 +62,9 @@ group :development do
 end
 
 gem 'rspec-rails', group: [ :test ]
+
+# Easier forms
+gem "simple_form", github: "heartcombo/simple_form"
+
+# Dummy data
+gem "faker"

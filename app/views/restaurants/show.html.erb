@@ -1,0 +1,5 @@
+<h1><%= @restaurant.name %></h1>
+<p><%= @restaurant.address %></p>
+<p><%= @restaurant.phone_number %></p>
+<%= link_to "Edit this task", edit_restaurant_path(@restaurant) %>
+<%= link_to "Delete this task", restaurant_path(@restaurant), data: {turbo_method: :delete, turbo_confirm: "Are you sure?"} %>
