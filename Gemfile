@@ -68,3 +68,5 @@ gem "simple_form", github: "heartcombo/simple_form"
 
 # Dummy data
 gem "faker"
+
+gem 'rails-controller-testing'
